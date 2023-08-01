@@ -1,0 +1,422 @@
+
+/* Navbar */
+.collapse{
+    font-weight: bold;
+    font-size: 17px;
+    } 
+    .navbar-nav li{
+    padding-left: 16px;
+    padding-right: 16px;
+   
+    } */
+    .navbar{ 
+    height:auto; 
+    color: white; } 
+    
+    .dropdown-item{
+      font-weight: bold;
+     }
+    
+  
+    
+     /*Carousel/Slide  */
+
+     .carousel-caption{
+        /* margin-bottom: 100px; */
+        margin-right: 50%;
+        text-align: right;
+       
+       }
+       .slide-text{
+        margin-bottom: 10%;
+       }
+       .top-trend{
+       animation-delay: 3s;
+        border: 1px solid transparent;
+        width:90px ;
+        background-color: #f94d6f;
+        text-align: center;
+       }
+       .flower-trend{
+       animation-delay: 1s;
+       color: black;
+       border: 1px solid transparent;
+       width:250px ;
+       text-align: left;
+       }
+       .para{
+        animation-delay: 2s;
+        color: black;
+        border: 1px solid transparent;
+        width:500px ;
+        text-align: left;
+       }
+       .shop-now{
+       animation-delay: 3s;
+       border: 1px solid transparent;
+       width:120px ;
+       height: 30px;
+       font-size: large;
+       background-color: #f94d6f;
+       font-weight: 400;
+       text-align: center;
+       }
+       .shop-now{
+       animation-delay: 3s;
+       border: 1px solid transparent;
+       width:120px ;
+       height: 30px;
+       font-size: large;
+       background-color: #f94d6f;
+       font-weight: 400;
+       text-align: center;
+       }
+       /* Cards */
+       .wonderfull{
+        text-align: center;
+        margin-top: 60px;
+        color: #f94d6f;
+        font-family: 'Fasthand', cursive;
+        font-size: 25px;
+        font-weight: bold;
+       }
+       .featured-products{
+        text-align: center;
+        margin-top:20px;
+        font-size: 38px;
+       }
+       .card{
+        margin-top: 30%;
+        width: 100%;
+        height: 90%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 20px 40px -14px rgba(113, 111, 111, 0.25);
+       }
+       .card-body{
+        height: 70%;
+      }
+      .card:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+      }
+      .card-text{
+       text-align: center;
+       margin-top: 40%;
+       color: #393838;
+       font-weight: bold;
+       font-size: 19px;
+      }
+      .card1-4{
+        margin-top: 52%; 
+
+      }
+      .awwal{
+        margin-top: 59.5%;
+      }
+      .saloram{
+        margin-top: 57.5%;
+      }
+      .card6-7-8{
+        margin-top: 40%; 
+
+      }
+      .card12{
+        margin-top: 70%; 
+
+      }
+      .card9-10-11{
+        margin-top: 60%; 
+
+      }  
+       .price-box{
+        text-align: center;
+         color: #393838;
+         font-weight: bold;
+      }
+      /* download details */
+     
+          
+    
+    
+     .dd{ 
+     text-align: center;
+     text-decoration: none;
+     color: #f94d6f;
+     font-weight: 500;
+     }
+    
+
+    
+    /* .download:hover{
+      color: #f94d6f;
+    } */
+/* Our History */
+  
+ .head{
+    text-align: center;
+    font-size: 8vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .para1{
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+color:  rgb(73, 68, 68);
+  }
+  .para2{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(73, 68, 68);
+  }
+  /* sales card */
+.cardbwm{
+    height: fit-content;
+}
+
+  .cardbwm:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+/* Newsletter */
+/* Default styles */
+.newsletter-subscribe {
+  margin-top: 10%;
+}
+
+.newsletter-subscribe .intro {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.newsletter-subscribe .intro h2.newsletter {
+  font-size: 24px;
+}
+
+.newsletter-subscribe .intro p {
+  font-size: 16px;
+}
+
+.newsletter-subscribe form .form-group {
+  margin-bottom: 10px;
+}
+.newsletter-subscribe form .btnsub:hover{
+background-color: #f94d6f;
+}
+.newsletter-subscribe form .btnsub {
+  width: 100%;
+  background-color: #373636;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .newsletter-subcribe .intro h2.newsletter {
+    font-size: 20px;
+  }
+
+  .newsletter-subscribe .intro p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  .newsletter-subscribe .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .newsletter-subscribe .container {
+    max-width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .newsletter-subscribe .container {
+    max-width: 1140px;
+  }
+}
+
+    /* Footer */
+    ul {
+        margin: 0px;
+        padding: 0px;
+      }
+      .footer-section {
+      background: #151414;
+      position: relative;
+      margin-top: 10%;
+      }
+      .footer-cta {
+      border-bottom: 1px solid #373636;
+      }
+      .single-cta i {
+      color: #f94d6f;
+      font-size: 30px;
+      float: left;
+      margin-top: 8px;
+      }
+      .cta-text {
+      padding-left: 15px;
+      display: inline-block;
+      }
+      .cta-text h4 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 2px;
+      }
+      .cta-text span {
+      color: #9a9898;
+      font-size: 15px;
+      }
+      .footer-content {
+      position: relative;
+      z-index: 2;
+      
+      }
+      .footer-pattern img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 330px;
+      background-size: cover;
+      background-position: 100% 100%;
+      }
+      .footer-logo {
+      margin-bottom: 30px;
+      font-size: 40px;
+      }
+      .footer-logo a{
+        text-decoration: none;
+      }
+      .footer-logo img {
+        max-width: 200px;
+      }
+      .footer-text p {
+      margin-bottom: 14px;
+      font-size: 14px;
+          color: #7e7e7e;
+      line-height: 28px;
+      }
+      .footer-social-icon span {
+      color: #fff;
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 20px;
+      }
+      .footer-social-icon a {
+      color: #fff;
+      font-size: 16px;
+      margin-right: 15px;
+      }
+      .footer-social-icon i {
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 50%;
+      }
+      .facebook-bg{
+      background: #3B5998;
+      }
+      .twitter-bg{
+      background: #55ACEE;
+      }
+      .google-bg{
+      background: #DD4B39;
+      }
+      
+      
+      .footer-widget-heading h3 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      position: relative;
+      }
+      .footer-widget-heading h3::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      height: 2px;
+      width: 50px;
+      background: #f94d6f;
+      }
+      .footer-widget ul li {
+      display: inline-block;
+      float: left;
+      width: 50%;
+      margin-bottom: 12px;
+      
+      }
+      .footer-widget ul li a:hover{
+      color: #f94d6f;
+      }
+      .footer-widget ul li a {
+      color: #9a9898;
+      text-transform: capitalize;
+      text-decoration: none;
+      }
+      .subscribe-form {
+      position: relative;
+      overflow: hidden;
+      }
+      .subscribe-form input {
+      width: 100%;
+      padding: 14px 28px;
+      background: #e7e5e5;
+      border: 1px solid #000000;
+      color: #000000;
+      }
+      .subscribe-form button {
+        position: absolute;
+        right: 0;
+        background: #f94d6f;
+        padding: 13px 20px;
+        border: 1px solid #f94d6f;
+        top: 0;
+      }
+      .subscribe-form button i {
+      color: #fff;
+      font-size: 22px;
+      transform: rotate(-6deg);
+      }
+      .copyright-area{
+      background: #202020;
+      padding: 25px 0;
+      }
+      .copyright-text p {
+      margin: 0;
+      font-size: large;
+      color: #878787;
+      }
+      .copyright-text p a{
+      color: #f94d6f;
+      }
+      .footer-menu li {
+      display: inline-block;
+      margin-left: 20px;
+      }
+      .footer-menu li:hover a{
+      color: #f94d6f;
+      }
+      .footer-menu li a {
+      font-size: 14px;
+      color: #d7d6d6;
+      text-decoration: none;
+      font-size: large;
+      }
+    .pata{
+      font-size: 2vw;
+    }
+    .amc{
+      font-size: 1vw;
+    }
+      /* theme */
+
+      

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Product Comparison</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <link rel="icon" href="./pics/Pink_Floral_Florist_Logo-removebg-preview.png">
+  <style>
+    .table-responsive {
+      margin-bottom: 20px;
+    }
+    .collapse{
+    font-weight: bold;
+    font-size: 17px;
+    } 
+    .navbar-nav li{
+    padding-left: 16px;
+    padding-right: 16px;
+   
+    } */
+    .navbar{ 
+    height:auto; 
+    color: white; } 
+    
+    .dropdown-item{
+      font-weight: bold;
+     }
+    
+  
+     /* comparison */
+     @media (max-width: 767px) {
+    /* Adjust table font size and remove horizontal scroll on smaller screens */
+    .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    table {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    /* Center-align table headers on extra small screens */
+    table thead th {
+      text-align: center;
+    }
+  }
+      /* Footer */
+    ul {
+        margin: 0px;
+        padding: 0px;
+      }
+      .footer-section {
+      background: #151414;
+      position: relative;
+      margin-top: 10%;
+      }
+      .footer-cta {
+      border-bottom: 1px solid #373636;
+      }
+      .single-cta i {
+      color: #f94d6f;
+      font-size: 30px;
+      float: left;
+      margin-top: 8px;
+      }
+      .cta-text {
+      padding-left: 15px;
+      display: inline-block;
+      }
+      .cta-text h4 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 2px;
+      }
+      .cta-text span {
+      color: #9a9898;
+      font-size: 15px;
+      }
+      .footer-content {
+      position: relative;
+      z-index: 2;
+      
+      }
+      .footer-pattern img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 330px;
+      background-size: cover;
+      background-position: 100% 100%;
+      }
+      .footer-logo {
+      margin-bottom: 30px;
+      font-size: 40px;
+      }
+      .footer-logo a{
+        text-decoration: none;
+      }
+      .footer-logo img {
+        max-width: 200px;
+      }
+      .footer-text p {
+      margin-bottom: 14px;
+      font-size: 14px;
+          color: #7e7e7e;
+      line-height: 28px;
+      }
+      .footer-social-icon span {
+      color: #fff;
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 20px;
+      }
+      .footer-social-icon a {
+      color: #fff;
+      font-size: 16px;
+      margin-right: 15px;
+      }
+      .footer-social-icon i {
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 50%;
+      }
+      .facebook-bg{
+      background: #3B5998;
+      }
+      .twitter-bg{
+      background: #55ACEE;
+      }
+      .google-bg{
+      background: #DD4B39;
+      }
+      
+      
+      .footer-widget-heading h3 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      position: relative;
+      }
+      .footer-widget-heading h3::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      height: 2px;
+      width: 50px;
+      background: #f94d6f;
+      }
+      .footer-widget ul li {  
+      display: inline-block;
+    float: left;
+      width: 50%;
+      margin-bottom: 12px;
+      
+      }
+      .footer-widget ul li a:hover{
+      color: #f94d6f;
+      }
+      .footer-widget ul li a {
+      color: #9a9898;
+      text-transform: capitalize;
+      text-decoration: none;
+      }
+      .subscribe-form {
+      position: relative;
+      overflow: hidden;
+      }
+      .subscribe-form input {
+      width: 100%;
+      padding: 14px 28px;
+      background: #e7e5e5;
+      border: 1px solid #000000;
+      color: #000000;
+      }
+      .subscribe-form button {
+        position: absolute;
+        right: 0;
+        background: #f94d6f;
+        padding: 13px 20px;
+        border: 1px solid #f94d6f;
+        top: 0;
+      }
+      .subscribe-form button i {
+      color: #fff;
+      font-size: 22px;
+      transform: rotate(-6deg);
+      }
+      .copyright-area{
+      background: #202020;
+      padding: 25px 0;
+      }
+      .copyright-text p {
+      margin: 0;
+      font-size: large;
+      color: #878787;
+      }
+      .copyright-text p a{
+      color: #f94d6f;
+      }
+      .footer-menu li {
+      display: inline-block;
+      margin-left: 20px;
+      }
+      .footer-menu li:hover a{
+      color: #f94d6f;
+      }
+      .footer-menu li a {
+      font-size: 14px;
+      color: #d7d6d6;
+      text-decoration: none;
+      font-size: large;
+      }
+    .pata{
+      font-size: 2vw;
+    }
+    .amc{
+      font-size: 1vw;
+    }
+    /* th{
+      color: white;
+      background-color: #0000;
+    } */
+    
+
+  </style>
+</head>
+<header>
+  <section>
+    <nav>
+      <nav class="navbar navbar-expand-lg bg-body-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img  class="img-fluid" src="./pics/Pink_Floral_Florist_Logo-removebg-preview.png" alt="" width="120px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav " style="margin-left: 16%;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Programms
+                </a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="./Marraige.html">Marriege</a></li>
+                  <hr class="line-divider">
+                  <li><a class="dropdown-item" href="./Anniversery.html">Anniversery</a></li>
+                  <hr class="line-divider">
+                  <li><a class="dropdown-item" href="./birthday.html">Birhtday</a></li>
+                </ul>
+              </li>
+
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                   Flowers
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./rosecategories.html">Rose</a></li> <hr class="line-divider">
+                  <li><a class="dropdown-item" href="./lilycategories.html">Lily </a></li> <hr class="line-divider">
+                  <li><a class="dropdown-item" href="./tulipcategories.html">Tulip</a></li>
+                </ul>
+              </li>
+           
+         <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="./comparision.html">Comparision</a>
+         </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./About us.html">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact us.html">Contact Us</a>
+              </li>
+              
+
+          </div>
+        </div>
+      </nav>
+    </nav>
+    
+   </section>
+</header>
+  <main>
+      <section>
+        <section>
+            <div class="container">
+    
+      
+            <img src="https://cdn.wallpapersafari.com/76/31/4gqUY0.jpg" class="img-fluid " alt="..." style=" height: 500px; width:100% ;">
+          </div>
+      </section>
+  </main>
+<body>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+      <h1 class="text-center">Flower Product Comparison</h1>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped ">
+          <thead >
+            <tr >
+              <th class="bg-dark text-light">Product</th>
+              <th class="bg-dark text-light">Description</th>
+              <th class="bg-dark text-light">Price</th>
+              <th class="bg-dark text-light">Availability</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rose Bouquet</td>
+              <td>A beautiful bouquet of fresh red roses.</td>
+              <td>$29.99</td>
+              <td>In Stock</td>
+            </tr>
+            <tr>
+              <td>Tulip Arrangement</td>
+              <td>A colorful arrangement of tulips in a vase.</td>
+              <td>$24.99</td>
+              <td>In Stock</td>
+            </tr>
+            <tr>
+              <td>Orchid Plant</td>
+              <td>A potted orchid plant with vibrant blooms.</td>
+              <td>$39.99</td>
+              <td>Out of Stock</td>
+            </tr>
+            <tr>
+              <td>Floral Wreath</td>
+              <td>A decorative wreath with a mix of flowers and foliage.</td>
+              <td>$19.99</td>
+              <td>In Stock</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="text-center">Decoration Comparison</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th class="bg-dark text-light">Decoration</th>
+              <th class="bg-dark text-light">Description</th>
+              <th class="bg-dark text-light">Price</th>
+              <th class="bg-dark text-light">Availability</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Flower Vase</td>
+              <td>A glass vase for displaying flower arrangements.</td>
+              <td>$9.99</td>
+              <td>In Stock</td>
+            </tr>
+            <tr>
+              <td>Flower Basket</td>
+              <td>A decorative basket for holding flower arrangements.</td>
+              <td>$14.99</td>
+              <td>In Stock</td>
+            </tr>
+            <tr>
+              <td>Floral Garland</td>
+              <td>A long floral garland for decorating tables or walls.</td>
+              <td>$29.99</td>
+              <td>Out of Stock</td>
+            </tr>
+            <tr>
+              <td>Flower Wreath</td>
+              <td>A circular wreath made of flowers and greenery.</td>
+              <td>$19.99</td>
+              <td>In Stock</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+      <!-- Footer -->
+      <footer class="footer-section">
+        <div class="container-fluid">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4 class="pata">Find us</h4>
+                                <span class="amc">SD-1, Block A North Nazimabad Town, Karachi, 74700
+                                  H</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4 class="pata">Call us</h4>
+                                <span class="amc">03484662268</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4 class="pata">Mail us</h4>
+                                <span class="amc">b2698082@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                 <a href="index.html"><span style="color:#f94d6f;font-size: 6vw;">Blooming </span><span style="color: white; font-size: 4vw;">Petal</span> </div><img src="" class="img-fluid" alt=""></a> 
+                          
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon" style="display: inline-flex;">
+                              <span style="color: #f94d6f;">Follow </span> &nbsp; <span> us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./About us.html">about</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="./contact us.html">Contact</a></li>
+                                <li><a href="./About us.html">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="./contact us.html">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="email" placeholder="Email Address" id="submail">
+                                    <button><i class="fab fa-telegram-plane" onclick="sub()"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+          function sub(){
+            
+      
+      let submail = document.getElementById("submail").value
+      
+      
+      
+      localStorage.setItem("email", submail);
+      
+      
+      alert("Welcome! You have subscribed us");
+      
+          }
+        </script>
+        <div class="copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, All Right Reserved <a href="https://codepen.io/anupkumar92/">Blooming Petal</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="./contact us.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+</body>
+
+</html>

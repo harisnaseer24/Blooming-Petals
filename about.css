@@ -1,0 +1,346 @@
+.collapse{
+  font-weight: bold;
+  font-size: 17px;
+  } 
+  .navbar-nav li{
+  padding-left: 16px;
+  padding-right: 16px;
+ 
+  } */
+  .navbar{ 
+  height:auto; 
+  color: white; } 
+  
+  .dropdown-item{
+    font-weight: bold;
+   }
+  
+
+
+
+     /*banner  */
+     .home:hover{
+        color:#f94d6f ;
+      }
+      .home{
+        color: black;
+      }
+/* Info Cards */
+.lh-1{
+    color: #f94d6f;
+    font-family: 'Fasthand', cursive;
+    font-size: 28px;
+    font-weight: bold;
+}
+.bdy{
+    font-family:  'Fasthand, cursive';
+    font-size: 40px;
+    
+   
+}
+
+
+
+
+
+#btn-1{
+   font-weight: bold;
+   
+   background-color: #000000;
+   width: 180px;
+   text-align: center;
+   
+   height: 50px;
+   
+   
+  }
+ 
+#btn-1:hover{
+    background-color:#f94d6f ;
+   
+}
+
+.itext{
+  /* border: 1px solid black; */
+  width: auto;
+  height: fit-content;
+  justify-content: center;
+  margin-left: 2%;
+  margin-top: 7%;
+}
+ .ptext{
+  /* border: 1px solid black; */
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+ 
+  margin-top: 7%;
+} 
+.col-md-5:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+/* Our History */
+.wonderfull{
+  text-align: center;
+  margin-top: 60px;
+  color: #f94d6f;
+  font-family: 'Fasthand', cursive;
+  font-size: 25px;
+  font-weight: bold;
+ }
+.head{
+  text-align: center;
+  font-size: 8vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para1{
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+color:  rgb(73, 68, 68);
+}
+.para2{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(73, 68, 68);
+}
+  /* Newsletter */
+  .newsletter-subscribe {
+    margin-top: 10%;
+  }
+  
+  .newsletter-subscribe .intro {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-subscribe .intro h2.newsletter {
+    font-size: 24px;
+  }
+  
+  .newsletter-subscribe .intro p {
+    font-size: 16px;
+  }
+  
+  .newsletter-subscribe form .form-group {
+    margin-bottom: 10px;
+  }
+  .newsletter-subscribe form .btnsub:hover{
+  background-color: #f94d6f;
+  }
+  .newsletter-subscribe form .btnsub {
+    width: 100%;
+    background-color: #373636;
+    color: white;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .newsletter-subcribe .intro h2.newsletter {
+      font-size: 20px;
+    }
+  
+    .newsletter-subscribe .intro p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .newsletter-subscribe .container {
+      max-width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .newsletter-subscribe .container {
+      max-width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .newsletter-subscribe .container {
+      max-width: 1140px;
+    }
+  }
+    /* footer */
+    ul {
+        margin: 0px;
+        padding: 0px;
+      }
+      .footer-section {
+      background: #151414;
+      position: relative;
+      margin-top: 250px;
+      }
+      .footer-cta {
+      border-bottom: 1px solid #373636;
+      }
+      .single-cta i {
+      color: #f94d6f;
+      font-size: 30px;
+      float: left;
+      margin-top: 8px;
+      }
+      .cta-text {
+      padding-left: 15px;
+      display: inline-block;
+      }
+      .cta-text h4 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 2px;
+      }
+      .cta-text span {
+      color: #9a9898;
+      font-size: 15px;
+      }
+      .footer-content {
+      position: relative;
+      z-index: 2;
+      
+      }
+      .footer-pattern img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 330px;
+      background-size: cover;
+      background-position: 100% 100%;
+      }
+      .footer-logo {
+      margin-bottom: 30px;
+      font-size: 40px;
+      }
+      .footer-logo a{
+        text-decoration: none;
+      }
+      .footer-logo img {
+        max-width: 200px;
+      }
+      .footer-text p {
+      margin-bottom: 14px;
+      font-size: 14px;
+          color: #7e7e7e;
+      line-height: 28px;
+      }
+      .footer-social-icon span {
+      color: #fff;
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 20px;
+      }
+      .footer-social-icon a {
+      color: #fff;
+      font-size: 16px;
+      margin-right: 15px;
+      }
+      .footer-social-icon i {
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 50%;
+      }
+      .facebook-bg{
+      background: #3B5998;
+      }
+      .twitter-bg{
+      background: #55ACEE;
+      }
+      .google-bg{
+      background: #DD4B39;
+      }
+      
+      
+      .footer-widget-heading h3 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      position: relative;
+      }
+      .footer-widget-heading h3::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      height: 2px;
+      width: 50px;
+      background: #f94d6f;
+      }
+      .footer-widget ul li {
+      display: inline-block;
+      float: left;
+      width: 50%;
+      margin-bottom: 12px;
+      
+      }
+      .footer-widget ul li a:hover{
+      color: #f94d6f;
+      }
+      .footer-widget ul li a {
+      color: #9a9898;
+      text-transform: capitalize;
+      text-decoration: none;
+      }
+      .subscribe-form {
+      position: relative;
+      overflow: hidden;
+      }
+      .subscribe-form input {
+      width: 100%;
+      padding: 14px 28px;
+      background: #e7e5e5;
+      border: 1px solid #000000;
+      color: #fff;
+      }
+      .subscribe-form button {
+        position: absolute;
+        right: 0;
+        background: #f94d6f;
+        padding: 13px 20px;
+        border: 1px solid #f94d6f;
+        top: 0;
+      }
+      .subscribe-form button i {
+      color: #fff;
+      font-size: 22px;
+      transform: rotate(-6deg);
+      }
+      .copyright-area{
+      background: #202020;
+      padding: 25px 0;
+      }
+      .copyright-text p {
+      margin: 0;
+      font-size: large;
+      color: #878787;
+      }
+      .copyright-text p a{
+      color: #f94d6f;
+      }
+      .footer-menu li {
+      display: inline-block;
+      margin-left: 20px;
+      }
+      .footer-menu li:hover a{
+      color: #f94d6f;
+      }
+      .footer-menu li a {
+      font-size: 14px;
+      color: #d7d6d6;
+      text-decoration: none;
+      font-size: large;
+      }
+      .pata{
+        font-size: 2vw;
+      }
+      .amc{
+        font-size: 1vw;
+      }
+      
